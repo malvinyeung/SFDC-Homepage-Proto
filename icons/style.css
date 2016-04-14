@@ -1,0 +1,201 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?ph2vdo');
+	src:url('fonts/icomoon.eot?ph2vdo#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?ph2vdo') format('truetype'),
+		url('fonts/icomoon.woff?ph2vdo') format('woff'),
+		url('fonts/icomoon.svg?ph2vdo#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sfdc-icon-SMB:before {
+	content: "\e934";
+}
+.icon-sfdc-icon-industries:before {
+	content: "\e935";
+}
+.icon-sfdc-icon-tooltip:before {
+	content: "\e936";
+}
+.icon-sfdc-icon-whitepaper2:before {
+	content: "\e937";
+}
+.icon-sfdc-icon-hamburger:before {
+	content: "\e938";
+}
+.icon-sfdc-icon-grid:before {
+	content: "\e939";
+}
+.icon-sfdc-icon-globe:before {
+	content: "\e933";
+}
+.icon-sfdc-icon-offsite:before {
+	content: "\e907";
+}
+.icon-sfdc-icon-analytics:before {
+	content: "\e92b";
+}
+.icon-sfdc-icon-community:before {
+	content: "\e92c";
+}
+.icon-sfdc-icon-IoT:before {
+	content: "\e92d";
+}
+.icon-sfdc-icon-lightning-thunder:before {
+	content: "\e92e";
+}
+.icon-sfdc-icon-marketing:before {
+	content: "\e92f";
+}
+.icon-sfdc-icon-platform:before {
+	content: "\e930";
+}
+.icon-sfdc-icon-sales:before {
+	content: "\e931";
+}
+.icon-sfdc-icon-service:before {
+	content: "\e932";
+}
+.icon-vidyard-fullscreen-enter:before {
+	content: "\e900";
+}
+.icon-vidyard-fullscreen-exit:before {
+	content: "\e901";
+}
+.icon-vidyard-hd:before {
+	content: "\e902";
+}
+.icon-vidyard-pause:before {
+	content: "\e903";
+}
+.icon-vidyard-play-only:before {
+	content: "\e904";
+}
+.icon-vidyard-play:before {
+	content: "\e905";
+}
+.icon-vidyard-sound-bar:before {
+	content: "\e906";
+}
+.icon-vidyard-sound:before {
+	content: "\e908";
+}
+.icon-sfdc-icon-1oclock:before {
+	content: "\e909";
+}
+.icon-sfdc-icon-5oclock:before {
+	content: "\e90a";
+}
+.icon-sfdc-icon-8oclock:before {
+	content: "\e90b";
+}
+.icon-sfdc-icon-alarm:before {
+	content: "\e90c";
+}
+.icon-sfdc-icon-calendar:before {
+	content: "\e90d";
+}
+.icon-sfdc-icon-closed-captioning:before {
+	content: "\e90e";
+}
+.icon-sfdc-icon-comments:before {
+	content: "\e90f";
+}
+.icon-sfdc-icon-down-arrow:before {
+	content: "\e910";
+}
+.icon-sfdc-icon-facebook-inverted:before {
+	content: "\e911";
+}
+.icon-sfdc-icon-facebook:before {
+	content: "\e912";
+}
+.icon-sfdc-icon-fullscreen:before {
+	content: "\e913";
+}
+.icon-sfdc-icon-google-inverted:before {
+	content: "\e914";
+}
+.icon-sfdc-icon-google:before {
+	content: "\e915";
+}
+.icon-sfdc-icon-linkedin-inverted:before {
+	content: "\e916";
+}
+.icon-sfdc-icon-linkedin:before {
+	content: "\e917";
+}
+.icon-sfdc-icon-login:before {
+	content: "\e918";
+}
+.icon-sfdc-icon-magnifying-glass:before {
+	content: "\e919";
+}
+.icon-sfdc-icon-minus:before {
+	content: "\e91a";
+}
+.icon-sfdc-icon-pause:before {
+	content: "\e91b";
+}
+.icon-sfdc-icon-plus:before {
+	content: "\e91c";
+}
+.icon-sfdc-icon-retweet:before {
+	content: "\e91d";
+}
+.icon-sfdc-icon-right-arrow:before {
+	content: "\e91e";
+}
+.icon-sfdc-icon-share:before {
+	content: "\e91f";
+}
+.icon-sfdc-icon-star:before {
+	content: "\e920";
+}
+.icon-sfdc-icon-talk-bubble-plus:before {
+	content: "\e921";
+}
+.icon-sfdc-icon-talk-bubble:before {
+	content: "\e922";
+}
+.icon-sfdc-icon-twitter-inverted:before {
+	content: "\e923";
+}
+.icon-sfdc-icon-twitter:before {
+	content: "\e924";
+}
+.icon-sfdc-icon-up-arrow:before {
+	content: "\e925";
+}
+.icon-sfdc-icon-volume:before {
+	content: "\e926";
+}
+.icon-sfdc-icon-whitepaper:before {
+	content: "\e927";
+}
+.icon-sfdc-icon-x:before {
+	content: "\e928";
+}
+.icon-sfdc-icon-youtube-inverted:before {
+	content: "\e929";
+}
+.icon-sfdc-icon-youtube:before {
+	content: "\e92a";
+}
+
