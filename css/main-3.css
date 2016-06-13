@@ -39,6 +39,7 @@ textarea{overflow:auto}
 optgroup{font-weight:bold}
 table{border-collapse:collapse;border-spacing:0}
 td,th{padding:0}
+html{display:block !important}
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */@media print{*,*:before,*:after{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}
 a,a:visited{text-decoration:underline}
 a[href]:after{content:" (" attr(href) ")"}
@@ -58,7 +59,7 @@ select{background:#fff !important}
 .table td,.table th{background-color:#fff !important}
 .table-bordered th,.table-bordered td{border:1px solid #ddd !important}
 }
-@font-face{font-family:'Glyphicons Halflings';src:url('clientlibs_base/fonts/glyphicons-halflings-regular.eot');src:url('clientlibs_base/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),url('clientlibs_base/fonts/glyphicons-halflings-regular.woff2') format('woff2'),url('clientlibs_base/fonts/glyphicons-halflings-regular.woff') format('woff'),url('clientlibs_base/fonts/glyphicons-halflings-regular.ttf') format('truetype'),url('clientlibs_base/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg')}
+@font-face{font-family:'Glyphicons Halflings';src:url('../sfdc-aem-master/clientlibs_base/fonts/glyphicons-halflings-regular.eot');src:url('../sfdc-aem-master/clientlibs_base/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),url('../sfdc-aem-master/clientlibs_base/fonts/glyphicons-halflings-regular.woff2') format('woff2'),url('../sfdc-aem-master/clientlibs_base/fonts/glyphicons-halflings-regular.woff') format('woff'),url('../sfdc-aem-master/clientlibs_base/fonts/glyphicons-halflings-regular.ttf') format('truetype'),url('../sfdc-aem-master/clientlibs_base/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg')}
 .glyphicon{position:relative;top:1px;display:inline-block;font-family:'Glyphicons Halflings';font-style:normal;font-weight:normal;line-height:1;letter-spacing:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .glyphicon-asterisk:before{content:"\2a"}
 .glyphicon-plus:before{content:"\2b"}
@@ -424,14 +425,14 @@ select{background:#fff !important}
 .cloud-icon-service.vertical-bar-prefix{padding-left:10px;border-left:1px solid #963cbd}
 .cloud-icon-service.primary-nav-sublink,.cloud-icon-service.secondary-nav-sublink{background-color:#963cbd !important;border-bottom:1px solid #963cbd !important}
 .headingComponent a.preventHover:hover .cloud-icon-service:before{color:#963cbd !important}
-@font-face{font-family:'SalesforceSansBold';src:url('clientlibs_base/fonts/SalesforceSans-Bold.eot');src:url('clientlibs_base/fonts/SalesforceSans-Bold.eot?#iefix') format('embedded-opentype'),url('clientlibs_base/fonts/SalesforceSans-Bold.woff') format('woff'),url('clientlibs_base/fonts/SalesforceSans-Bold.woff2') format('woff2'),url('clientlibs_base/fonts/SalesforceSans-Bold.ttf') format('truetype'),url('clientlibs_base/fonts/SalesforceSans-Bold.svg#SalesforceSansBold') format('svg');font-weight:normal;font-style:normal}
-@font-face{font-family:'SalesforceSansBoldItalic';src:url('clientlibs_base/fonts/SalesforceSans-BoldItalic.eot');src:url('clientlibs_base/fonts/SalesforceSans-BoldItalic.eot?#iefix') format('embedded-opentype'),url('clientlibs_base/fonts/SalesforceSans-BoldItalic.woff') format('woff'),url('clientlibs_base/fonts/SalesforceSans-BoldItalic.woff2') format('woff2'),url('clientlibs_base/fonts/SalesforceSans-BoldItalic.ttf') format('truetype'),url('clientlibs_base/fonts/SalesforceSans-BoldItalic.svg#SalesforceSansBoldItalic') format('svg');font-weight:normal;font-style:normal}
-@font-face{font-family:'SalesforceSansItalic';src:url('clientlibs_base/fonts/SalesforceSans-Italic.eot');src:url('clientlibs_base/fonts/SalesforceSans-Italic.eot?#iefix') format('embedded-opentype'),url('clientlibs_base/fonts/SalesforceSans-Italic.woff') format('woff'),url('clientlibs_base/fonts/SalesforceSans-Italic.woff2') format('woff2'),url('clientlibs_base/fonts/SalesforceSans-Italic.ttf') format('truetype'),url('clientlibs_base/fonts/SalesforceSans-Italic.svg#SalesforceSansItalic') format('svg');font-weight:normal;font-style:normal}
-@font-face{font-family:'SalesforceSansLight';src:url('clientlibs_base/fonts/SalesforceSans-Light.eot');src:url('clientlibs_base/fonts/SalesforceSans-Light.eot?#iefix') format('embedded-opentype'),url('clientlibs_base/fonts/SalesforceSans-Light.woff') format('woff'),url('clientlibs_base/fonts/SalesforceSans-Light.woff2') format('woff2'),url('clientlibs_base/fonts/SalesforceSans-Light.ttf') format('truetype'),url('clientlibs_base/fonts/SalesforceSans-Light.svg#SalesforceSansLight') format('svg');font-weight:normal;font-style:normal}
-@font-face{font-family:'SalesforceSansLightItalic';src:url('clientlibs_base/fonts/SalesforceSans-LightItalic.eot');src:url('clientlibs_base/fonts/SalesforceSans-LightItalic.eot?#iefix') format('embedded-opentype'),url('clientlibs_base/fonts/SalesforceSans-LightItalic.woff') format('woff'),url('clientlibs_base/fonts/SalesforceSans-LightItalic.woff2') format('woff2'),url('clientlibs_base/fonts/SalesforceSans-LightItalic.ttf') format('truetype'),url('clientlibs_base/fonts/SalesforceSans-LightItalic.svg#SalesforceSansLightItalic') format('svg');font-weight:normal;font-style:normal}
-@font-face{font-family:'SalesforceSansRegular';src:url('clientlibs_base/fonts/SalesforceSans-Regular.eot');src:url('clientlibs_base/fonts/SalesforceSans-Regular.eot?#iefix') format('embedded-opentype'),url('clientlibs_base/fonts/SalesforceSans-Regular.woff') format('woff'),url('clientlibs_base/fonts/SalesforceSans-Regular.woff2') format('woff2'),url('clientlibs_base/fonts/SalesforceSans-Regular.ttf') format('truetype'),url('clientlibs_base/fonts/SalesforceSans-Regular.svg#SalesforceSansRegular') format('svg');font-weight:normal;font-style:normal}
-@font-face{font-family:'SalesforceSansThin';src:url('clientlibs_base/fonts/SalesforceSans-Thin.eot');src:url('clientlibs_base/fonts/SalesforceSans-Thin.eot?#iefix') format('embedded-opentype'),url('clientlibs_base/fonts/SalesforceSans-Thin.woff') format('woff'),url('clientlibs_base/fonts/SalesforceSans-Thin.woff2') format('woff2'),url('clientlibs_base/fonts/SalesforceSans-Thin.ttf') format('truetype'),url('clientlibs_base/fonts/SalesforceSans-Thin.svg#SalesforceSansThin') format('svg');font-weight:normal;font-style:normal}
-@font-face{font-family:'SalesforceSansThinItalic';src:url('clientlibs_base/fonts/SalesforceSans-ThinItalic.eot');src:url('clientlibs_base/fonts/SalesforceSans-ThinItalic.eot?#iefix') format('embedded-opentype'),url('clientlibs_base/fonts/SalesforceSans-ThinItalic.woff') format('woff'),url('clientlibs_base/fonts/SalesforceSans-ThinItalic.woff2') format('woff2'),url('clientlibs_base/fonts/SalesforceSans-ThinItalic.ttf') format('truetype'),url('clientlibs_base/fonts/SalesforceSans-ThinItalic.svg#SalesforceSansThinItalic') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'SalesforceSansBold';src:url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Bold.eot');src:url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Bold.eot?#iefix') format('embedded-opentype'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Bold.woff') format('woff'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Bold.woff2') format('woff2'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Bold.ttf') format('truetype'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Bold.svg#SalesforceSansBold') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'SalesforceSansBoldItalic';src:url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-BoldItalic.eot');src:url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-BoldItalic.eot?#iefix') format('embedded-opentype'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-BoldItalic.woff') format('woff'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-BoldItalic.woff2') format('woff2'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-BoldItalic.ttf') format('truetype'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-BoldItalic.svg#SalesforceSansBoldItalic') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'SalesforceSansItalic';src:url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Italic.eot');src:url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Italic.eot?#iefix') format('embedded-opentype'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Italic.woff') format('woff'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Italic.woff2') format('woff2'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Italic.ttf') format('truetype'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Italic.svg#SalesforceSansItalic') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'SalesforceSansLight';src:url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Light.eot');src:url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Light.eot?#iefix') format('embedded-opentype'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Light.woff') format('woff'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Light.woff2') format('woff2'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Light.ttf') format('truetype'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Light.svg#SalesforceSansLight') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'SalesforceSansLightItalic';src:url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-LightItalic.eot');src:url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-LightItalic.eot?#iefix') format('embedded-opentype'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-LightItalic.woff') format('woff'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-LightItalic.woff2') format('woff2'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-LightItalic.ttf') format('truetype'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-LightItalic.svg#SalesforceSansLightItalic') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'SalesforceSansRegular';src:url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.eot');src:url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.eot?#iefix') format('embedded-opentype'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.woff') format('woff'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.woff2') format('woff2'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.ttf') format('truetype'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.svg#SalesforceSansRegular') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'SalesforceSansThin';src:url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Thin.eot');src:url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Thin.eot?#iefix') format('embedded-opentype'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Thin.woff') format('woff'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Thin.woff2') format('woff2'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Thin.ttf') format('truetype'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Thin.svg#SalesforceSansThin') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'SalesforceSansThinItalic';src:url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-ThinItalic.eot');src:url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-ThinItalic.eot?#iefix') format('embedded-opentype'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-ThinItalic.woff') format('woff'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-ThinItalic.woff2') format('woff2'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-ThinItalic.ttf') format('truetype'),url('../sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-ThinItalic.svg#SalesforceSansThinItalic') format('svg');font-weight:normal;font-style:normal}
 .salesforce-sans-bold{font-family:'SalesforceSansBold' !important}
 .salesforce-sans-bolditalic{font-family:'SalesforceSansBoldItalic' !important}
 .salesforce-sans-italic{font-family:'SalesforceSansItalic' !important}
@@ -440,7 +441,7 @@ select{background:#fff !important}
 .salesforce-sans-thin{font-family:'SalesforceSansThin' !important}
 @media(max-width:767px){.salesforce-sans-thin{font-family:'SalesforceSansLight' !important}
 }
-@font-face{font-family:'Salesforce Icons';src:url('clientlibs_base/fonts/salesforce-icons.eot?p0av04');src:url('clientlibs_base/fonts/salesforce-icons.eot?p0av04#iefix') format('embedded-opentype'),url('clientlibs_base/fonts/salesforce-icons.woff?p0av04') format('woff'),url('clientlibs_base/fonts/salesforce-icons.ttf?p0av04') format('truetype'),url('clientlibs_base/fonts/salesforce-icons.svg?p0av04#icomoon') format('svg')}
+@font-face{font-family:'Salesforce Icons';src:url('../sfdc-aem-master/clientlibs_base/fonts/salesforce-icons.eot?p0av04');src:url('../sfdc-aem-master/clientlibs_base/fonts/salesforce-icons.eot?p0av04#iefix') format('embedded-opentype'),url('../sfdc-aem-master/clientlibs_base/fonts/salesforce-icons.woff?p0av04') format('woff'),url('../sfdc-aem-master/clientlibs_base/fonts/salesforce-icons.ttf?p0av04') format('truetype'),url('../sfdc-aem-master/clientlibs_base/fonts/salesforce-icons.svg?p0av04#icomoon') format('svg')}
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 *:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}
@@ -506,35 +507,35 @@ mark,.mark{background-color:#fcf8e3;padding:.2em}
 .text-uppercase{text-transform:uppercase}
 .text-capitalize{text-transform:capitalize}
 .text-salesforce-gray{color:#7c868d}
-.text-salesforce-gray[href]:hover{color:#646c72}
+a.text-salesforce-gray:hover,.text-salesforce-gray[href]:hover{color:#646c72}
 .text-white,.text-snow{color:#fff}
-.text-white[href]:hover,.text-snow[href]:hover{color:#e6e6e6}
+a.text-white:hover,a.text-snow:hover,.text-white[href]:hover,.text-snow[href]:hover{color:#e6e6e6}
 .text-frost{color:#fafafa}
-.text-frost[href]:hover{color:#e1e1e1}
+a.text-frost:hover,.text-frost[href]:hover{color:#e1e1e1}
 .text-karl-the-fog{color:#f4f4f4}
-.text-karl-the-fog[href]:hover{color:#dbdbdb}
+a.text-karl-the-fog:hover,.text-karl-the-fog[href]:hover{color:#dbdbdb}
 .text-haze{color:#c2c2c2}
-.text-haze[href]:hover{color:#a9a9a9}
+a.text-haze:hover,.text-haze[href]:hover{color:#a9a9a9}
 .text-mist{color:#d9e1e2}
-.text-mist[href]:hover{color:#bccacc}
+a.text-mist:hover,.text-mist[href]:hover{color:#bccacc}
 .text-rain{color:#b7c9d3}
-.text-rain[href]:hover{color:#97b1c0}
+a.text-rain:hover,.text-rain[href]:hover{color:#97b1c0}
 .text-slate,.text-altostratus{color:#4e758b}
-.text-slate[href]:hover,.text-altostratus[href]:hover{color:#3c5a6a}
+a.text-slate:hover,a.text-altostratus:hover,.text-slate[href]:hover,.text-altostratus[href]:hover{color:#3c5a6a}
 .text-dark-navy,.text-stratus{color:#003c4c}
-.text-dark-navy[href]:hover,.text-stratus[href]:hover{color:#001419}
+a.text-dark-navy:hover,a.text-stratus:hover,.text-dark-navy[href]:hover,.text-stratus[href]:hover{color:#001419}
 .text-link,.text-cirrus{color:#07b}
-.text-link[href]:hover,.text-cirrus[href]:hover{color:#005788}
+a.text-link:hover,a.text-cirrus:hover,.text-link[href]:hover,.text-cirrus[href]:hover{color:#005788}
 .text-nimbostratus{color:#005290}
-.text-nimbostratus[href]:hover{color:#00355d}
+a.text-nimbostratus:hover,.text-nimbostratus[href]:hover{color:#00355d}
 .text-cumulus{color:#00315a}
-.text-cumulus[href]:hover{color:#001527}
+a.text-cumulus:hover,.text-cumulus[href]:hover{color:#001527}
 .text-default,.text-dark-purple,.text-cumulonimbus{color:#024}
-.text-default[href]:hover,.text-dark-purple[href]:hover,.text-cumulonimbus[href]:hover{color:#000811}
+a.text-default:hover,a.text-dark-purple:hover,a.text-cumulonimbus:hover,.text-default[href]:hover,.text-dark-purple[href]:hover,.text-cumulonimbus[href]:hover{color:#000811}
 .text-gray,.text-black-ice{color:#505050}
-.text-gray[href]:hover,.text-black-ice[href]:hover{color:#373737}
+a.text-gray:hover,a.text-black-ice:hover,.text-gray[href]:hover,.text-black-ice[href]:hover{color:#373737}
 .text-dark-gray,.text-night{color:#222}
-.text-dark-gray[href]:hover,.text-night[href]:hover{color:#080808}
+a.text-dark-gray:hover,a.text-night:hover,.text-dark-gray[href]:hover,.text-night[href]:hover{color:#080808}
 .bg-gradient-white,.bg-gradient-snow{background-image:linear-gradient(rgba(255,255,255,0) 25%,#fff 67%)}
 .bg-gradient-xlight,.bg-gradient-frost{background-image:linear-gradient(rgba(255,255,255,0) 25%,#fafafa 67%)}
 .bg-gradient-light,.bg-gradient-karl-the-fog{background-image:linear-gradient(rgba(255,255,255,0) 25%,#f4f4f4 67%)}
@@ -667,7 +668,7 @@ footer.footer-container{font-size:12px}
 footer.footer-container a{font-size:12px}
 footer.footer-container h5{text-transform:uppercase}
 .tags{font-size:11px;color:#07b;font-family:'SalesforceSansBold' !important}
-.tags[href]:hover{color:#005788}
+a.tags:hover,.tags[href]:hover{color:#005788}
 .bodyCopyComponent{line-height:24px}
 .bodyCopyComponent .text-size-default{font-size:15px}
 .bodyCopyComponent .text-size-legal{font-size:12px}
@@ -1305,14 +1306,14 @@ body.work_com .nav-pills>li.active>a,.nav-pills>li.active>a:hover,.nav-pills>li.
 .navbar .list-inline a:hover{text-decoration:none}
 .navbar .list-inline>li{padding:0 15px}
 .navbar .list-inline>li h2{margin:0;font-size:inherit}
-/*.navbar .list-inline li.primary-menu-item a{font-family:'SalesforceSansBold' !important;font-size:16px}*/
+.navbar .list-inline li.primary-menu-item a{font-family:'SalesforceSansBold';font-size:16px}
 .navbar .list-inline li.secondary-menu-item a{font-family:'SalesforceSansRegular' !important;font-size:15px}
 .nav-container .main-menu{margin-right:15px;margin-left:2px}
 @media(max-width:767px){.nav-container .main-menu{display:none}
 }
-@media(min-width:1024px){.nav-container .main-menu .secondary-menu-item.first-second{margin-left:0;display:inline-block}
+@media(min-width:1024px){.nav-container .main-menu .primary-menu-item+.secondary-menu-item{display:inline-block}
 }
-@media(min-width:1312px){.nav-container .main-menu .secondary-menu-item.first-second{margin-left:50px}
+@media(min-width:1312px){.nav-container .main-menu .primary-menu-item+.secondary-menu-item{margin-left:30px}
 }
 .nav-container .btn-container{float:right}
 @media(min-width:1024px) and (max-width:1311px){.nav-container{padding-left:0}
@@ -1325,7 +1326,7 @@ body.work_com .nav-pills>li.active>a,.nav-pills>li.active>a:hover,.nav-pills>li.
 }
 .navbar-header.row{float:none}
 .navbar-header .top-section{font-size:12px}
-.navbar-header .top-section .phone-number,.navbar-header .top-section .contact-link,.navbar-header .top-section .search-form,.navbar-header .top-section .login-link{display:inline-block;margin-top:20px}
+.navbar-header .top-section .phone-number,.navbar-header .top-section .contact-link,.navbar-header .top-section .search-form,.navbar-header .top-section .login-link{display:inline-block;margin-top:22px}
 .navbar-header .top-section .contact-link a,.navbar-header .top-section .login-link a{letter-spacing:0}
 .navbar-header .top-section .contact-link .buttonCTAItemComponent,.navbar-header .top-section .login-link .buttonCTAItemComponent{margin-top:0 !important;margin-bottom:20px !important}
 .navbar-header .nav_login .btn-lg,.navbar-header .nav_contact .btn-lg{font-family:'SalesforceSansRegular' !important;font-size:12px;text-transform:uppercase}
@@ -1639,7 +1640,7 @@ blockquote.quote-small a:hover{color:#003c4c}
 }
 .thumbnail{display:block;padding:0;margin-bottom:21px;line-height:1.42857143;border-radius:0;width:100%}
 .thumbnail>img,.thumbnail a>img{display:block;max-width:100%;height:auto;margin-left:auto;margin-right:auto}
-.thumbnail .thumbnail-content{cursor:pointer;padding:0}
+.thumbnail .thumbnail-content{padding:0}
 .thumbnail .thumbnail-content .detail{display:none}
 .thumbnail.show-details .thumbnail-content:hover{background-color:#ededed}
 .thumbnail.show-details .thumbnail-content:hover .detail{display:block}
@@ -2065,10 +2066,10 @@ nav.sidebar.icon-navigation [class^="cloud-icon-"],nav.sidebar.icon-navigation [
 .powerFooterNavigationComponent .generic-links{list-style-type:none;padding-left:inherit}
 .powerFooterNavigationComponent .generic-links>li{padding:0 0 10px;margin:0}
 .powerFooterNavigationComponent .generic-links>li a{font-size:12px}
-@media(max-width:767px){.powerFooterNavigationComponent .mobile-footer-phone-number{background-color:#00a1e0;bottom:0;box-sizing:border-box;height:72px;padding-bottom:15px;padding-top:15px;position:fixed;width:100%;z-index:1200}
+@media(max-width:767px){.powerFooterNavigationComponent .mobile-footer-phone-number{background-color:#00a1e0;bottom:0;box-sizing:border-box;height:75px;padding-bottom:15px;padding-top:15px;position:fixed;width:100%;z-index:1200}
 .powerFooterNavigationComponent .mobile-footer-phone-number .text-stratus>span{display:-webkit-inline-box}
-.powerFooterNavigationComponent .mobile-footer-phone-number>div{background-color:#fff;border-radius:50px;height:42px;margin-left:32px;margin-right:32px;margin-top:0 !important;text-align:center !important;color:#222;line-height:42px;font-size:14px;font-family:"SalesforceSansRegular",Helvetica,Arial,sans-serif}
-.powerFooterNavigationComponent .mobile-footer-phone-number>div a{line-height:42px;font-size:14px;color:#07b;font-family:"SalesforceSansRegular",Helvetica,Arial,sans-serif}
+.powerFooterNavigationComponent .mobile-footer-phone-number>div{background-color:#fff;border-radius:50px;height:45px;margin-left:32px;margin-right:32px;margin-top:0 !important;text-align:center !important;color:#222;line-height:45px;font-size:11px;font-family:"SalesforceSansRegular",Helvetica,Arial,sans-serif;letter-spacing:.13em}
+.powerFooterNavigationComponent .mobile-footer-phone-number>div a{line-height:45px;font-size:11px;color:#07b;font-family:"SalesforceSansRegular",Helvetica,Arial,sans-serif}
 }
 .powerFooterNavigationComponent .footer-social-links{text-align:left}
 .powerFooterNavigationComponent .footer-social-links [class^="icon-sfdc-"],.powerFooterNavigationComponent .footer-social-links [class*=" icon-sfdc-"]{font-size:28px}
@@ -2083,7 +2084,7 @@ nav.sidebar.icon-navigation [class^="cloud-icon-"],nav.sidebar.icon-navigation [
 }
 .docked-container .fixedFooterCTAItemComponent{display:inline-block;vertical-align:bottom}
 .fixed-btn-container .btn{height:35px;border-radius:0}
-.opinionlab-trigger:before{display:inline-block;content:'';width:17px;height:15px;vertical-align:text-top;background:url(clientlibs_base/imgs/opinionlab-white.gif) no-repeat;background-size:contain}
+.opinionlab-trigger:before{display:inline-block;content:'';width:17px;height:15px;vertical-align:text-top;background:url(../sfdc-aem-master/clientlibs_base/imgs/opinionlab-white.gif) no-repeat;background-size:contain}
 .yt-container{text-align:center;margin:0 20px}
 .yt-container .grid-50{width:100%}
 .video-container{margin:0 auto}
@@ -2113,8 +2114,8 @@ nav.sidebar.icon-navigation [class^="cloud-icon-"],nav.sidebar.icon-navigation [
 .video-icons{width:80%}
 .conf-video-theme-jan14 .video-icons{width:70%;padding-left:10px}
 .right .social-icons{float:right}
-.video-icons .social{position:relative;height:16px;margin:7px 0 2px 15px;background:transparent url('clientlibs_base/assets/images/social-icons.png') no-repeat top left}
-.ie6 .video-icons .social{background-image:url('clientlibs_base/assets/images/social-icons.gif')}
+.video-icons .social{position:relative;height:16px;margin:7px 0 2px 15px;background:transparent url('../sfdc-aem-master/clientlibs_base/assets/images/social-icons.png') no-repeat top left}
+.ie6 .video-icons .social{background-image:url('../sfdc-aem-master/clientlibs_base/assets/images/social-icons.gif')}
 .video-icons .social.left{margin:7px 15px 2px 0}
 .video-icons .email{width:17px;background-position:-95px -571px}
 .video-icons .facebook{width:8px;background-position:-37px -571px}
@@ -2136,7 +2137,7 @@ a.embedLink{font-size:14px;text-transform:lowercase;color:#666}
 .video-playlist .media-title{float:left;width:80%;line-height:40px;overflow:hidden;text-align:left}
 .video-playlist .media-duration{float:left;width:5%;line-height:40px}
 .video-playlist .media-duration .duration{position:relative;font-size:16px}
-.video-conf-hor-notch{background-image:url('clientlibs_base/assets/images/video_conf_hor_notch.png');background-repeat:no-repeat}
+.video-conf-hor-notch{background-image:url('../sfdc-aem-master/clientlibs_base/assets/images/video_conf_hor_notch.png');background-repeat:no-repeat}
 .video-description{color:#666;margin:10px 0;width:100%;overflow:hidden}
 .conf-video-theme-jan14 .video-description{color:#666;width:100%;overflow:hidden;line-height:120%;padding-left:10px}
 .mduration{background:none repeat scroll 0 0 #000;color:#fff;line-height:100%;padding:3px}
@@ -2210,8 +2211,8 @@ a.embedLink{font-size:14px;text-transform:lowercase;color:#666}
 .video-cta-large .video-text,.video-cta-large .video-time{width:100%;bottom:0;color:#fff}
 .video-cta-large .video-time{right:10px}
 .video-cta-large .video-text{left:0;background-color:#525252;color:#fff;opacity:.85;filter:alpha(opacity=85)}
-.video-cta-large .play-button{position:absolute;top:50%;left:50%;display:block;width:56px;height:37px;margin-top:-18px;margin-left:-28px;background:url("clientlibs_base/assets/images/play-button.png") no-repeat left top transparent}
-.video-cta-large a:hover .play-button{background:url("clientlibs_base/assets/images/play-button-over.png")}
+.video-cta-large .play-button{position:absolute;top:50%;left:50%;display:block;width:56px;height:37px;margin-top:-18px;margin-left:-28px;background:url("../sfdc-aem-master/clientlibs_base/assets/images/play-button.png") no-repeat left top transparent}
+.video-cta-large a:hover .play-button{background:url("../sfdc-aem-master/clientlibs_base/assets/images/play-button-over.png")}
 .video-cta-small{max-width:94px}
 .video-cta-small img{max-width:94px;max-height:56px;display:block}
 .video-cta-small .video-text,.video-cta-small .video-time{display:block;padding:1px 0 0 3px;color:#666}
@@ -2390,7 +2391,7 @@ body.work_com .scrollable-nav .nav li.active:after{border-top-color:#92c1e9}
 .region-selector_icon{font-size:25px}
 .region-selector_caret{font-size:14px}
 }
-.imageComponent{position:relative}
+.imageComponent{position:relative;width:100%}
 .imageComponent .heading{position:absolute;top:0;left:0;width:100%}
 .imageComponent .heading .image-title-bg{min-height:30px;line-height:22px;padding:5px 10px;margin:0;font-size:12px}
 .imageComponent .heading .image-title-text{color:#fff;min-height:30px;line-height:22px;padding:5px 10px;margin:0;font-size:12px;font-family:'SalesforceSansRegular' !important;position:absolute;top:0;left:0;width:100%;height:100%}
@@ -2835,9 +2836,11 @@ th.visible-print,td.visible-print{display:table-cell !important}
 .cardComponent .product-icon{font-size:70px;padding-left:5px}
 @media(min-width:1024px){.cardComponent .product-icon{font-size:85px}
 }
+.cardComponent .thumbnail-content.thumbnail-linked *{cursor:pointer !important}
 @media(min-width:768px){.animate-card{margin-top:100px;opacity:0}
 }
 .from-tms{position:absolute;height:0}
+#conversion-tracking{position:fixed;height:0}
 .live-chat-modal{display:none;width:520px;position:fixed;top:0;left:50%;margin-top:300px;margin-top:25vh;margin-left:-260px;border:10px solid rgba(255,255,255,0.7);z-index:1000}
 @media(max-width:1023px){.live-chat-modal{display:none !important}
 }
