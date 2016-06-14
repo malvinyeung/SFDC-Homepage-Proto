@@ -45,7 +45,7 @@
 @media(max-width:767px){.expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .headingComponent .salesforce-sans-thinitalic a{font-family:'SalesforceSansLightItalic' !important}
 }
 .expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .cta-container a.cta-text{font-size:11px}
-.expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .sub-nav-panel{display:none;max-height:600px;float:left;position:absolute;margin-left:-30px;width:685px;top:148px;-webkit-transition:all .2s ease-out;transition:all .2s ease-out;background-color:#fff;border:solid 1px #c2c2c2}
+.expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .sub-nav-panel{display:none;max-height:600px;float:left;position:absolute;padding:0 0 15px 0;margin-left:-30px;width:685px;top:148px;-webkit-transition:all .2s ease-out;transition:all .2s ease-out;background-color:#fff;border:solid 1px #c2c2c2}
 .expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .sub-nav-panel .imageComponent{width:100%}
 .expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .sub-nav-panel h6{line-height:1 !important}
 .expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .sub-nav-panel .row{margin:0}
@@ -56,7 +56,7 @@
 .expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .sub-nav-panel .headingComponent{width:100%;padding-bottom:5px;margin-bottom:20px}
 .expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .sub-nav-panel .headingComponent small{line-height:14px;padding-top:5px}
 .expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .sub-nav-panel .headingComponent small,.expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .sub-nav-panel .headingComponent h1,.expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .sub-nav-panel .headingComponent h2,.expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .sub-nav-panel .headingComponent h3,.expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .sub-nav-panel .headingComponent h4,.expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .sub-nav-panel .headingComponent h5,.expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .sub-nav-panel .headingComponent h6{display:block}
-.expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .sub-nav-panel .columnContainer{padding-bottom: 20px	}
+.expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .sub-nav-panel .columnContainer{padding-top:20px}
 .expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .sub-nav-panel .columnContainer>.columns-wrapper{padding:0}
 .expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .sub-nav-panel .container{width:auto}
 .expandableNavigationBarComponent .navbar .nav-container .list-inline li.primary-menu-item .sub-nav-panel .container .row{margin-left:0}
